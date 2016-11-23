@@ -8,7 +8,7 @@ body {
 .container {
     align-content: center;
     font-family: cursive;
-    font-size: 120%;
+    font-size: 150%;
     margin-top: 10%;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .itemsList {
-    margin-left: 40%;
+    margin-left: 36%;
 }
 
 li input {

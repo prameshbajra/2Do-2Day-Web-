@@ -20,7 +20,9 @@ function editItem() {
 
 function enterItem() {
     //    console.log(this.value);
-    this.previousElementSibling.innerHTML = this.value;
+    localStorage.setItem('newItem', this.value);
+    var newItem = localStorage.getItem('newItem');
+    this.previousElementSibling.innerHTML = newItem;
     this.parentNode.className = "";
 }
 

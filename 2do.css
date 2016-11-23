@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0000ed;
+    color: currentColor;
+}
+
+.container {
+    align-content: center;
+    font-family: cursive;
+    font-size: 150%;
+    margin-top: 10%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.innerDiv {
+    margin: 0 30% 0 30%;
+}
+
+.itemsList {
+    margin-left: 36%;
+}
+
+li input {
+    display: none;
+}
+
+li.edit span {
+    display: none;
+}
+
+li.edit input {
+    display: initial;
+}

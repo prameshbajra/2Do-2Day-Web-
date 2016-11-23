@@ -23,3 +23,15 @@ body {
 .itemsList {
     margin-left: 40%;
 }
+
+li input {
+    display: none;
+}
+
+li.edit span {
+    display: none;
+}
+
+li.edit input {
+    display: initial;
+}
